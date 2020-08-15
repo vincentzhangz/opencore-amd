@@ -10,8 +10,8 @@
 | GPU | AsRock RX 5500XT Challenger |
 | OS Disk (NVMe) | Samsung 256GB |
 
-**macOS version**: 10.15.4 (19E287)  
-**OpenCore version**: 0.5.8
+**macOS version**: 10.15.6 (19G2021)
+**OpenCore version**: 0.6.0
 
 ## Drivers & Kexts
  - [[Bootloader] OpenCore](https://github.com/acidanthera/OpenCorePkg)
