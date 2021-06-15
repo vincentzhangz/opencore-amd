@@ -1665,7 +1665,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Modern</string>
+			<string>Acidanthera\GoldenGate</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1712,6 +1712,22 @@
 				<key>TextMode</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Name</key>
+				<string>CustomOS</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
 		</array>
 		<key>Security</key>
 		<dict>
@@ -1719,6 +1735,8 @@
 			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
+			<key>AllowToggleSip</key>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1748,9 +1766,31 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>OpenControl.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>OpenControl.efi</string>
+				<key>TextMode</key>
+				<false/>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>OpenControl.efi</string>
+				<key>Auxiliary</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>OpenShell.efi</string>
 				<key>RealPath</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 				<key>Name</key>
 				<string>OpenShell.efi</string>
 				<key>TextMode</key>
@@ -1787,7 +1827,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 alcid=1 npci=0x2000 agdpmod=pikera</string>
+				<string>-v keepsyms=1 alcid=1 npci=0x2000 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1853,12 +1893,12 @@
 		<false/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
+			<key>AdviseFeatures</key>
 			<false/>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>C028037014NJG36JA</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1870,9 +1910,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02W40UAHX87</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>E1B41029-28CE-4A24-8527-4F211A17AF8A</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1942,6 +1982,7 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
+			<string>ext4_x64.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
@@ -1976,7 +2017,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<false/>
+			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
