@@ -13,7 +13,7 @@
 
 **macOS version**: 11.5 Beta (20G5033c)
 <br>
-**OpenCore version**: 0.7.0
+**OpenCore version**: 0.7.1
 
 ## Drivers & Kexts
 
