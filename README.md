@@ -11,9 +11,9 @@
 | GPU            | AsRock RX 5500XT Challenger         |
 | OS Disk (NVMe) | Samsung 970 EVO Plus 1TB            |
 
-**macOS version**: 13.0 (22A380)
+**macOS version**: 13.4
 <br>
-**OpenCore version**: 0.8.5
+**OpenCore version**: 0.9.2
 
 ## Drivers & Kexts
 
