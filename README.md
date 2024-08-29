@@ -9,11 +9,11 @@
 | RAM            | 32GB (2 x 16GB) Ballistix @ 2666MHz |
 | Audio Chipset  | Realtek ALC892                      |
 | GPU            | AsRock RX 5500XT Challenger         |
+| Network Card   | Fenvi T919                          |
 | OS Disk (NVMe) | Samsung 970 EVO Plus 1TB            |
 
-**macOS version**: 13.4
-<br>
-**OpenCore version**: 0.9.2
+**macOS version**: 14.6.1 (23G93)
+**OpenCore version**: 1.0.1
 
 ## Drivers & Kexts
 
@@ -31,7 +31,6 @@
 ## Not working
 
 - Hypervisor.framework (VirtualBox and XCode iOS emulator works)
-- Microphone
 
 ## How to use
 
