@@ -12,8 +12,8 @@
 | Network Card   | Fenvi T919                          |
 | OS Disk (NVMe) | Samsung 970 EVO Plus 1TB            |
 
-**macOS version**: 14.6.1 (23G93)
-**OpenCore version**: 1.0.1
+**macOS version**: 15.0 (24A335)
+**OpenCore version**: 1.0.2
 
 ## Drivers & Kexts
 

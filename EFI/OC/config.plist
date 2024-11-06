@@ -206,7 +206,7 @@
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
-			<true/>
+			<false/>
 			<key>FixupAppleEfiImages</key>
 			<false/>
 			<key>ForceBooterSignature</key>
@@ -228,7 +228,7 @@
 			<key>ResizeAppleGpuBars</key>
 			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
-			<false/>
+			<true/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
@@ -239,22 +239,22 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>built-in</key>
-				<data>AQAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>built-in</key>
 				<data>AQAAAA==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>built-in</key>
 				<data>AQAAAA==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQAAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>built-in</key>
 				<data>AQAAAA==</data>
@@ -273,7 +273,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>Lilu.kext</string>
+				<string>V1.6.9 | Lilu.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -291,7 +291,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>VirtualSMC.kext</string>
+				<string>V1.3.4</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -307,9 +307,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>FeatureUnlock.kext</string>
+				<key>Comment</key>
+				<string>V1.1.6</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/FeatureUnlock</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>NVMeFix.kext</string>
+				<string>V1.1.1 | NVMeFix.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -327,7 +345,7 @@
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
-				<string>RealtekRTL8111.kext</string>
+				<string>V2.4.2 | RealtekRTL8111.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -345,7 +363,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>RestrictEvents.kext</string>
+				<string>V1.1.3 | RestrictEvents.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -363,7 +381,7 @@
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
-				<string>USBInjectAll.kext</string>
+				<string>V0.7.6 | USBInjectAll.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -381,7 +399,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>WhateverGreen.kext</string>
+				<string>V1.6.8 | WhateverGreen.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -399,7 +417,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>AppleALC.kext</string>
+				<string>V1.9.2 | AppleALC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -417,7 +435,7 @@
 				<key>BundlePath</key>
 				<string>AGPMInjector.kext</string>
 				<key>Comment</key>
-				<string>AGPMInjector.kext</string>
+				<string>V122 | AGPMInjector.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -435,7 +453,7 @@
 				<key>BundlePath</key>
 				<string>AMDRyzenCPUPowerManagement.kext</string>
 				<key>Comment</key>
-				<string>AMDRyzenCPUPowerManagement.kext</string>
+				<string>V0.7.2 | AMDRyzenCPUPowerManagement.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -453,7 +471,7 @@
 				<key>BundlePath</key>
 				<string>AMDUSBMap.kext</string>
 				<key>Comment</key>
-				<string>AMDUSBMap.kext</string>
+				<string>V1.0 | AMDUSBMap.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -471,7 +489,7 @@
 				<key>BundlePath</key>
 				<string>AppleALCU.kext</string>
 				<key>Comment</key>
-				<string>AppleALCU.kext</string>
+				<string>V1.8.9 | AppleALCU.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -489,7 +507,7 @@
 				<key>BundlePath</key>
 				<string>AppleMCEReporterDisabler.kext</string>
 				<key>Comment</key>
-				<string>AppleMCEReporterDisabler.kext</string>
+				<string>V1.2 | AppleMCEReporterDisabler.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -507,7 +525,7 @@
 				<key>BundlePath</key>
 				<string>RadeonSensor.kext</string>
 				<key>Comment</key>
-				<string>RadeonSensor.kext</string>
+				<string>V0.3.3 | RadeonSensor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -525,7 +543,7 @@
 				<key>BundlePath</key>
 				<string>IOSkywalkFamily.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>V1.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -543,7 +561,7 @@
 				<key>BundlePath</key>
 				<string>IO80211FamilyLegacy.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>V1200.12.2b1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -561,7 +579,7 @@
 				<key>BundlePath</key>
 				<string>IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>V1400.1.1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -579,7 +597,7 @@
 				<key>BundlePath</key>
 				<string>SMCAMDProcessor.kext</string>
 				<key>Comment</key>
-				<string>SMCAMDProcessor.kext</string>
+				<string>V1 | SMCAMDProcessor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -597,7 +615,7 @@
 				<key>BundlePath</key>
 				<string>SMCRadeonGPU.kext</string>
 				<key>Comment</key>
-				<string>SMCRadeonGPU.kext</string>
+				<string>V0.3.3 | SMCRadeonGPU.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1481,7 +1499,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -1706,7 +1724,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 npci=0x3000 agdpmod=pikera alcid=1 amfi=0x80</string>
+				<string>keepsyms=1 npci=0x3000 agdpmod=pikera alcid=1 amfi=0x80 -revbeta revpatch=sbvmm</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1782,7 +1800,7 @@
 			<key>MLB</key>
 			<string></string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>3842</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -2094,7 +2112,7 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</string>
 			<key>AudioOutMask</key>
 			<integer>1</integer>
 			<key>AudioSupport</key>
@@ -2328,6 +2346,8 @@
 				<string>RuntimeCode</string>
 			</dict>
 		</array>
+		<key>Unload</key>
+		<array/>
 	</dict>
 </dict>
 </plist>
